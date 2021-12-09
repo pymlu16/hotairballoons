@@ -6,7 +6,7 @@ import java.awt.Graphics2D;
 
 public class JitterObject implements MovingObject {
 
-	public JitterObject(Balloon object) {
+	public JitterObject(MovingObject object) {
 		obj = object;
 		// keeps track of moves so it makes sure the object jitters in both directions
 		moveRight = true;
